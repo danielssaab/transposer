@@ -10,3 +10,34 @@ A Ab A# B Bb B# C Cb C# D Db D# F Fb F# G Gb G#
 Como a função não leva o tom original em consideração, ela não irá gerar transposições com bemóis, a fim de simplificar a quantidade de parametros a ser passado.
 
 Na pagina em questao os botoes + e - chamam a função com parametro +1 e -1, respectivamente, o botao central armazena o valor atual de transposição,  sendo possível com esse valor, resetar a string ao valor inicial. Ao atingir valores maiores que 11 ou menres que -11, o valor do botão central retorna a 0.
+
+
+Exemplos de string a ser tratada pelo transpositor
+
+I	[Bb lick]
+a	[Eb| %| Gm| F] (Eb)
+R	[ Bb| F| Cm| Eb ] (solo)
+
+
+=============================================================
+
+i	[G|%C!|G!]
+a	[C%|D%|G b~|D/F# a|
+  |Em%!|C%|D!%|G%|
+  |A!%|C|D!]
+r	[C%%|C!D!|Em%|D%!]
+  |C|D!|G!]
+f	[C%%|C!D!|Em%C!|G!]
+
+
+=============================================================
+
+
+I	(c#... ag#f# g# f#f#:)
+a   [F#m|D|A|E]
+pr  [D|E|F#m|D|Bm..]
+fim=i	d c#b f#f#f#
+
+
+(note que anotações de notas em char minusculo não é transposta)
+=============================================================
