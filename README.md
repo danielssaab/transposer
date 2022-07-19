@@ -1,4 +1,5 @@
 # transposer
+<pre>
 Transpositor de cifras de progressão de acordes
 
 Esse html é uma pequena aplicação capaz de transpor cifras e anotações de progressão de acordes em formato texto, facilitando rapidamente a necessidade dos musicos que faz anotações eventualmente em bloco de notas ou similar.
@@ -14,30 +15,31 @@ Na pagina em questao os botoes + e - chamam a função com parametro +1 e -1, re
 
 Exemplos de string a ser tratada pelo transpositor
 
-I	[Bb lick]
-a	[Eb| %| Gm| F] (Eb)
-R	[ Bb| F| Cm| Eb ] (solo)
+I   [Bb lick]
+a   [Eb| %| Gm| F] (Eb)
+R   [ Bb| F| Cm| Eb ] (solo)
 
 
 =============================================================
 
-i	[G|%C!|G!]
-a	[C%|D%|G b~|D/F# a|
-  |Em%!|C%|D!%|G%|
-  |A!%|C|D!]
-r	[C%%|C!D!|Em%|D%!]
-  |C|D!|G!]
-f	[C%%|C!D!|Em%C!|G!]
+i   [G|%C!|G!]
+a   [C%|D%|G b~|D/F# a|
+    |Em%!|C%|D!%|G%|
+    |A!%|C|D!]
+r   [C%%|C!D!|Em%|D%!]
+    |C|D!|G!]
+f   [C%%|C!D!|Em%C!|G!]
 
 
 =============================================================
 
 
-I	(c#... ag#f# g# f#f#:)
+I   (c#... ag#f# g# f#f#:)
 a   [F#m|D|A|E]
 pr  [D|E|F#m|D|Bm..]
-fim=i	d c#b f#f#f#
+fim=i   d c#b f#f#f#
 
 
 (note que anotações de notas em char minusculo não é transposta)
 =============================================================
+</pre>
