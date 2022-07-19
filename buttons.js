@@ -21,3 +21,11 @@ function ajustaStep(){
 	if (a <= -12) a += 12;
 	document.getElementById("buttonSteps").value=a;
 }
+
+function copiar(){
+	navigator.clipboard.writeText(document.getElementById("preCifra").innerHTML);
+}
+
+function colar(){
+	navigator.clipboard.readText().then(texto => document.getElementById("text").value = texto);
+}
