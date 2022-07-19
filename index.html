@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<title>TRANSPOSER</title>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<script src="transposer.js"></script>
+	<script src="buttons.js"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+	<header>
+		<h1>Transpositor</h1>
+		<hr>
+	</header>
+
+	<main>
+				<div class=mus>
+					<div class="container-transp">
+						<input type="button" class="transp" onclick="cifraUp();" value="+" id="buttonPlus"></input>
+						<input type="button" class="transp" onclick="cifraReset()" value=0 id="buttonSteps"></input>
+						<input type="button" class="transp" onclick="cifraDown()" value="-" id="buttonMinus"></input>
+					</div>
+					<textarea class="inputCifra" placeholder="Insira sua cifra" id="text"></textarea>
+					<pre class="pre" id="preCifra"></pre>
+				</div>
+		</form>
+	</main>
+</body>
+
+</html>

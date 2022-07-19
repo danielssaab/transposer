@@ -1,0 +1,65 @@
+    @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+		body {
+			background-color: rgb(215, 240, 2240);
+			font-family: 'source code pro', Courier, monospace;
+			font-weight: 500;
+			font-size: 12px;
+			width: auto;
+			}
+
+		header {
+			text-align: center;
+			padding: 5px 0px 0px 0px;
+			background-image: linear-gradient(to bottom, whitesmoke, rgb(240, 208, 208));
+			text-shadow: 0px 7px 7px rgba(0, 0, 0, 0.315);
+		}
+
+		main {
+			max-width: 1200px;
+			min-width: auto;
+		}
+
+		h1 {
+			font-size: 3em;
+			font-style: normal;
+			font-weight: 900;
+			padding-left: 15px;
+			padding-right: 15px;
+			margin: 0px;
+		}
+
+		.container-transp {
+			display: flex;
+			justify-content: space-around;
+			margin: 25px auto;
+			max-width: 200px;
+		}
+
+		.transp {
+			width: 3.25em;
+			height: 3.25em;
+			border-radius: 35px;
+			font-weight: 600;
+		}
+
+		.inputCifra, .pre {
+			display: flex;
+			justify-content: center;
+			width:90%;
+			min-height:200px;
+			margin: auto;
+			text-shadow: none;
+			padding: 0.5em;
+			font-size: 1.2em;
+			font-family: 'source code pro', 'Consolas', Courier, monospace;
+			font-weight: normal;
+			max-width: 1000px;
+			min-width: 70%;
+			border-style: groove;
+			border-color: rgba(0, 0, 0, 0.57);
+			box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.566);
+			border-radius: 15px;
+			background-color: whitesmoke;
+			letter-spacing: -0.125em;
+		}
