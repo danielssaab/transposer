@@ -1,5 +1,5 @@
 # transposer
-<pre>
+<pre style="max-width=400px;">
 Transpositor de cifras de progressão de acordes
 
 Esse html é uma pequena aplicação capaz de transpor cifras e anotações de progressão de acordes em formato texto, facilitando rapidamente a necessidade dos musicos que faz anotações eventualmente em bloco de notas ou similar.
